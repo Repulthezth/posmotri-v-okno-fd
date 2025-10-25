@@ -83,8 +83,8 @@ ol {
 }
 
 .search-form__textfield:focus {
-    outline: 2px solid;
-     outline-offset: 1px;
+  outline: 2px solid;
+  outline-offset: 1px;
 }
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
