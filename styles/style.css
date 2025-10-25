@@ -70,6 +70,10 @@ ol {
 .content__list-container {
   height: 298px;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: relative;
 }
 
 .content__details {
@@ -80,6 +84,7 @@ ol {
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -94,11 +99,6 @@ ol {
   gap: 30px;
 }
 
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
 
 .content__video-card {
   display: flex;
@@ -293,10 +293,3 @@ input {
   padding-left: 3px;
 }
 
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-  position: relative;
-}
